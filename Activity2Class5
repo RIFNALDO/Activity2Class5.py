@@ -1,0 +1,11 @@
+Amount = int(input("Please Enter Amount for Withdraw : ")) 
+
+
+note1 = Amount//100
+note2 = (Amount%100)//50
+note3 = ((Amount%100)%50)//10
+
+
+print("notes of 100 dollar bills ", note1)
+print("notes of 50 dollar bills " , note2)
+print("notes of 10 dollar bills"  , note3)
